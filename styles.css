@@ -1,0 +1,150 @@
+/* Overriding Bootstrap's "container-fluid" class to remove padding.*/
+
+#Landing {
+  padding-left: 0;
+  padding-right: 0;
+}
+
+/* Utilities*/
+
+.max-width-1100 {
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+/* Element Styles */
+
+h2 {
+  text-align: center;
+  margin: 2em 0;
+  text-transform: capitalize;
+}
+
+/* Navbar */
+
+.navbar {
+  z-index: 1;
+  margin: 0 auto;
+}
+
+.navbar img {
+  width: 3em;
+}
+
+.navbar .nav-link {
+  color: white !important;
+}
+
+/* Landing Page */
+
+.splash {
+  position: absolute;
+  background-image: url('assets/png/airstream-desert.png');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: 0 -10vh;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 90vh;
+  z-index: 0;
+}
+
+.main {
+  margin: 50vh 0 0 20vw;
+  color: #FFFFF3;
+  text-shadow: 2px 2px black;
+  width: 90vw;
+}
+.main input {
+  width: 80%;
+  height: 5vh;
+  background: url(assets/svg/search-solid.svg);
+  background-repeat: no-repeat;
+  background-size: 2.5vh;
+  background-position: 1vh;
+  background-color: white;
+  padding-left: 3em;
+}
+
+/* How It Works Page */
+
+
+.how-it-works {
+  margin-top: 90vh;
+  text-align: center;
+  letter-spacing: 1.5px;
+}
+
+.how-it-works > .row {
+  margin: 0 auto;
+}
+
+.how-it-works .step {
+  margin-bottom: 2em;
+}
+
+.how-it-works p {
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-top: 1em;;
+}
+
+/* Testimonial Page */
+
+.testimonial {
+  margin-bottom: 2em;
+  text-align: center;
+}
+
+.testimonial .video {
+  margin: 0 auto;
+  margin-bottom: 1em;
+}
+
+.testimonial .btn {
+  max-width: 300px;
+  width: 10vw;
+  min-width: 200px;
+  height: 4em;
+  line-height: em;
+}
+
+@media (min-width: 768px) {
+
+  .testimonial .btn {
+    margin-top: 45%;
+  }
+
+}
+
+.chevron {
+  text-align: center;
+}
+
+/* Footer */
+
+
+nav.footer {
+  color: #FFFFF3;
+  background:#454545;
+  width: 100vw;
+  padding: 2em;
+  letter-spacing: 1px;
+}
+
+nav.footer ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+nav.footer a {
+  font-decoration: none;
+  color: #FFFFF3;
+}
+
+nav.footer h6 {
+  font-weight: bold;
+  margin: 2em 0;
+  letter-spacing: 2px;
+}
